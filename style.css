@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo{
+   padding-left: 30px;
+   padding-top: 10px;
+   padding-right: 30px;
+}
+
+.menu{
+    color: black;
+    font-family: fantasy;
+    padding: 15px;
+    font-size: 22px;
+    font-weight: 700;
+    display: inline block;
+    text-decoration: none;
+}
+
+.account{
+    color: black;
+    padding: 15px;
+    font-size: 22px;
+    font-weight: 700;
+    display: inline block;
+    text-decoration: none;
+}
+
+nav{
+    height: 90px;
+    display: flex;
+
+    & .menu-item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 1000;
+    }
+    & .account {
+        display: flex;
+        padding-left: 20px;
+        padding-top: 30px;
+        align-items: right;
+        justify-content: right;
+        width: 200;
+        align-items: center;
+    }
+}
+
+.title{
+    display: flex;
+    height: 650;
+    margin-top: 10px;
+    background-color: #d9d9d9;
+    padding-left: 60px;
+
+    & .img1{
+        align-self: center;
+        height: 550;
+        width: 500;
+        
+    }
+
+    & .content1{
+        background-color: #d9d9d9;
+        padding-left: 40px;
+        height: 500;
+        width: 900;
+        align-self: center;
+        align-content: center;
+    }
+    
+}
+
+.sub_cont1{
+    color: black;
+    font-size: 24px;
+    font-weight: 700;
+    
+}
+
+.sub_cont2{
+    padding-top: 25px;
+    color: #B8001F;
+    padding-bottom: 25px;
+}
+
+.sub_cont3{
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+
+}
